@@ -1,4 +1,4 @@
-name: Motorola Edge 50 Pro Kernel Builder
+bname: Motorola Edge 50 Pro Kernel Builder
 
 on:
   workflow_dispatch:

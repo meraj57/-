@@ -1,4 +1,4 @@
-bname: Motorola Edge 50 Pro Kernel Builder
+flow
   workflow_dispatch:
 
 jobs:
@@ -35,5 +35,4 @@ jobs:
       - name: Upload Kernel Image
         uses: actions/upload-artifact@v4
         with:
-          name: Edge-50-Pro-Kernel
-          path: kernel-source/out/arch/arm64/boot/Image
+          name: Edge-50-Pro-
